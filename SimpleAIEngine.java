@@ -11,7 +11,7 @@ public class SimpleAIEngine {
 
     public static void main(String[] args) {
         // Simulating the last 5 prices of a stock
-        double[] priceHistory = {150.2, 151.5, 152.0, 149.8, 153.1,131.12,145.23};                                    
+        double[] priceHistory = { 150.2, 151.5, 152.0, 149.8, 153.1, 131.12, 145.23 };
 
         double movingAverage = calculateAverage(priceHistory);
         System.out.println(" AI Data Preparation - Moving Average: " + movingAverage);
